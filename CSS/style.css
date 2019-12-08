@@ -1,0 +1,126 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: SF Pro Rounded;
+  font-size: 16px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: left;
+  background-color: #ffffff;
+  position: fixed;
+  left:0;
+  top: 0;
+  width: 375px;
+  height: 64px;
+  border-bottom: 1px solid #3b3b3b;
+}
+
+.distancetostop{
+  text-align: left;
+  background-color: #ffffff;
+  width: 375px;
+  height: 46px;
+  padding-top: 64px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-bottom: 1px solid #3b3b3b;
+}
+
+.walkingimg{
+  padding: 10px 5px 10px 115px;
+  width: 26px;
+  height: 26px;
+  display: inline-flex;
+  align-content: center;
+}
+
+.subhead{
+  width: 375px;
+  height: 30px;
+  text-align: left;
+  border-bottom: 1px solid #3b3b3b;
+  background-color: #FDE6D6;
+}
+
+h1 {
+  font-family: SF Pro Rounded;
+  font-size:17px;
+  text-align: left;
+  color:#000000;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: SF Pro Rounded;
+  font-size:20px;
+  line-height: 21px;
+  text-align: left;
+  color:#000000;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: SF Pro Rounded;
+  font-size:24px;
+  text-align: left;
+  color:#000000;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: inline-flex;
+}
+
+h4 {
+  font-family: SF Pro Rounded;
+  font-size:18px;
+  text-align: left;
+  color:#000000;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.barrive{
+  width: 375px;
+  height: 100px;
+  padding-top: 15px;
+  background-color: #FF6B00;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.barrive h3{
+  color:#ffffff;
+}
+
+.barrive h4{
+  color: #ffffff;
+  display: inline-flex;
+}
+
+.bnext{
+  padding-top: 15px;
+  width: 375px;
+  height: 85px;
+  border-bottom: 1px solid #3b3b3b;
+}
+
+h3.nowarriving{
+  text-transform: uppercase;
+}
