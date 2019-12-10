@@ -91,7 +91,7 @@ h3 {
   padding-top: 5px;
   padding-left: 20px;
   padding-bottom: 20px;
-  display: inline-flex;
+  display: inline-block;
 }
 
 h4 {
@@ -119,8 +119,6 @@ h4 {
 
 .barrive h4{
   color: #ffffff;
-  display: inline-flex;
-  display: inline-block;
 }
 
 .bnext{
@@ -132,25 +130,8 @@ h4 {
 
 h3.nowarriving{
   text-transform: uppercase;
-  float: right;
-  margin-right: 50px;
-}
-
-h3.nextarriving{
-  float: right;
-  margin-right: 50px;
-}
-
-.times{
-  float: right;
-  margin-right: 50px;
 }
 
 .barrive i{
-margin-left: 90%;
 color: #ffffff;
-}
-
-.bnext i{
-margin-left: 90%;
 }
