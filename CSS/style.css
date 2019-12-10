@@ -102,6 +102,7 @@ h4 {
   padding-top: 5px;
   padding-left: 20px;
   padding-bottom: 20px;
+  display: inline-block;
 }
 
 .barrive{
@@ -119,6 +120,7 @@ h4 {
 .barrive h4{
   color: #ffffff;
   display: inline-flex;
+  display: inline-block;
 }
 
 .bnext{
