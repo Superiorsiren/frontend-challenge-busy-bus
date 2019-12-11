@@ -110,15 +110,18 @@ h4 {
   height: 100px;
   padding-top: 15px;
   background-color: #FF6B00;
+  display: inline-block;
   box-shadow: 0px 10px 10px -3px rgba(0,0,0,0.18)
 }
 
 .barrive h3{
   color:#ffffff;
+display: inline-block;
 }
 
 .barrive h4{
   color: #ffffff;
+  display: inline-block;
 }
 
 .bnext{
@@ -134,4 +137,13 @@ h3.nowarriving{
 
 .barrive i{
 color: #ffffff;
+float: right;
+margin-top: 27px;
+margin-right: 10px;
+}
+
+.bnext i {
+float: right;
+margin-top: 27px;
+margin-right: 10px;
 }
