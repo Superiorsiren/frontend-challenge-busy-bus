@@ -115,7 +115,7 @@ h4 {
 }
 
 .barrive h3{
-  color:#ffffff;
+color:#ffffff;
 display: inline-block;
 }
 
@@ -133,6 +133,13 @@ display: inline-block;
 
 h3.nowarriving{
   text-transform: uppercase;
+  float: right;
+  margin-right: 15px;
+}
+
+h4.nextarriving{
+  float: right;
+  margin-right: 15px;
 }
 
 .barrive i{
@@ -146,4 +153,9 @@ margin-right: 10px;
 float: right;
 margin-top: 27px;
 margin-right: 10px;
+}
+
+.times {
+     float : right;
+     margin-right: 15px;
 }
