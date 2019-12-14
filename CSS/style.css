@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: grey;
   font-family: SF Pro Rounded;
   font-size: 16px;
   margin: 0 auto;
@@ -15,30 +15,36 @@ body {
 }
 
 .header {
-  padding-top: 15px;
   display: flex;
-  align-content: center;
-  justify-content: center;
   text-align: left;
   background-color: #ffffff;
   position: fixed;
+  margin: 0 auto;
   top: 0;
   width: 375px;
   height: 64px;
-  margin: 0 auto;
   border-bottom: 1px solid #3b3b3b;
+}
+
+.status{
+ width: 375px;
+ position: fixed;
+ display: flex;
+ text-align: left;
+ background-color: #ffffff;
 }
 
 .header i{
   color: #000000;
-  margin-top: 12px;
+  margin-top: 32px;
+  padding-left: 10px;
 }
 
 .distancetostop{
   text-align: left;
   background-color: #ffffff;
   width: 375px;
-  height: 46px;
+  height: 40px;
   padding-top: 79px;
   display: flex;
   align-content: center;
@@ -47,7 +53,7 @@ body {
 }
 
 .walkingimg{
-  padding: 10px 5px 10px 115px;
+  padding: 0px 5px 10px 100px;
   width: 26px;
   height: 26px;
   display: inline-flex;
@@ -57,19 +63,27 @@ body {
 .subhead{
   width: 375px;
   height: 30px;
-  text-align: left;
   border-bottom: 1px solid #3b3b3b;
   background-color: #FDE6D6;
 }
 
-h1 {
+
+.header h1 {
   font-family: SF Pro Rounded;
   font-size:17px;
   text-align: left;
   color:#000000;
+  padding-top: 32px;
+  padding-left: 10px;
+}
+
+.distancetostop h1 {
+  font-family: SF Pro Rounded;
+  font-size:18px;
+  text-align: left;
+  color:#000000;
   padding-top: 5px;
   padding-left: 20px;
-  padding-top: 20px;
 }
 
 h2 {
@@ -86,6 +100,7 @@ h2 {
 h3 {
   font-family: SF Pro Rounded;
   font-size:24px;
+  font-weight: 80%;
   text-align: left;
   color:#000000;
   padding-top: 5px;
@@ -97,6 +112,7 @@ h3 {
 h4 {
   font-family: SF Pro Rounded;
   font-size:18px;
+  font-weight: 80%;
   text-align: left;
   color:#000000;
   padding-top: 5px;
@@ -107,7 +123,7 @@ h4 {
 
 .barrive{
   width: 375px;
-  height: 100px;
+  height: 85px;
   padding-top: 15px;
   background-color: #FF6B00;
   display: inline-block;
@@ -115,47 +131,55 @@ h4 {
 }
 
 .barrive h3{
-color:#ffffff;
-display: inline-block;
+  color:#ffffff;
+  display: inline-block;
+  font-weight: bolder;
+  padding-left: 20px;
+
 }
 
 .barrive h4{
   color: #ffffff;
   display: inline-block;
+  font-weight: 90%;
+  padding-left: 20px;
 }
 
 .bnext{
+  background-color: #ffffff;
   padding-top: 15px;
   width: 100%;
-  height: 100px;
+  height: 85px;
   border-bottom: 1px solid #3b3b3b;
 }
 
 h3.nowarriving{
   text-transform: uppercase;
   float: right;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 h4.nextarriving{
   float: right;
-  margin-right: 15px;
+  margin-right: 50px;
+  font-weight: 90%;
+  font-size: 18px;
 }
 
 .barrive i{
-color: #ffffff;
-float: right;
-margin-top: 27px;
-margin-right: 10px;
+  color: #ffffff;
+  float: right;
+  margin-top: 27px;
+  margin-right: 20px;
 }
 
 .bnext i {
-float: right;
-margin-top: 27px;
-margin-right: 10px;
+  float: right;
+  margin-top: 27px;
+  margin-right: 20px;
 }
 
 .times {
-     float : right;
-     margin-right: 15px;
+  float: right;
+  margin-right: 20px;
 }
